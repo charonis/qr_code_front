@@ -1,0 +1,23 @@
+.block_input {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_form {
+  display: block;
+  margin-bottom: 30px;
+  width: 500px;
+  background-color: #16141a;
+  color: #d83f87;
+  border: #f2f2f2 1px solid;
+  border-radius: 5px;
+  height: 25px;
+}
+
+.text_response{
+  font-size: 18px;
+  color: #f2f2f2;
+}

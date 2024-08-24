@@ -1,0 +1,43 @@
+.div_form {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.test {
+  display: block;
+}
+
+.input_form {
+  display: block;
+  margin-bottom: 30px;
+  width: 450px;
+  background-color: #16141a;
+  color: #d83f87;
+  border: #f2f2f2 1px solid;
+  border-radius: 5px;
+  height: 25px;
+}
+
+.info_form {
+  height: 200px;
+  resize: none;
+  margin-bottom: 30px;
+  width: 450px;
+  background-color: #16141a;
+  color: #d83f87;
+  border: #f2f2f2 1px solid;
+  border-radius: 5px;
+}
+
+.input_form,
+:focus {
+  outline: 0px transparent;
+}
+
+.input_form{
+  outline: none;
+  overflow:hidden;
+}

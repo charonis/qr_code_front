@@ -1,0 +1,24 @@
+.block_name{
+    display: flex;
+    padding: 7px 0 ;
+}
+
+.name{
+    margin-right: 20px;
+    color: #f2f2f2;
+    font-size: 40px;
+}
+
+.block_info{
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    font-size: 18px;
+    color: #f2f2f2;
+    max-width: 500px;
+    min-width: 500px;
+    text-align:justify
+}
+
