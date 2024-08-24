@@ -1,9 +1,9 @@
 import "./App.css";
 import MyForm from "./myComponent/MyForm.jsx";
 import { MyGetQr } from "./myComponent/MyGetQr.jsx";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 import { MyRout } from "./myComponent/MyRout.jsx";
-import { MyPage } from "./myComponent/Mypage.jsx";
+import { MyPage } from "./myComponent/MyPage.jsx";
 import { MyDelete } from "./myComponent/MyDelete.jsx";
 
 function App() {
