@@ -11,7 +11,7 @@ export function MyGetQr(){
     }})
 
     async function submit(date){
-        setMyImage(`http://127.0.0.1:8000/qr_code/get_qr/${date.unique_key}`)
+        setMyImage(`https://qr-code-good.vercel.app/qr_code/get_qr/${date.unique_key}`)
         reset()
     }
 
