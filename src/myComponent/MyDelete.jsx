@@ -12,7 +12,7 @@ export function MyDelete(){
     async function submit(date){
         await axios({
             method: "delete",
-            url: `https://qr-code-good.vercel.app/qr_code/remove_qr/${date.unique_key}`,
+            url: `http://127.0.0.1:8000/qr_code/remove_qr/${date.unique_key}`,
             headers:{
                 "accept" : "application/json"
             }
