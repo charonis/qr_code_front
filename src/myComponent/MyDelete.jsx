@@ -14,7 +14,8 @@ export function MyDelete(){
             method: "delete",
             url: `https://qr-code-good.vercel.app/qr_code/remove_qr/${date.unique_key}`,
             headers:{
-                "accept" : "application/json"
+                "accept" : "application/json",
+                'sec-fetch-mode': 'no-cors'
             }
         }).then((response) => {
             setResponses(response.data)
@@ -39,3 +40,4 @@ export function MyDelete(){
         </div>
     )
 }
+
