@@ -16,7 +16,7 @@ export default function MyForm (){
     async function submit(date){
         await axios({
             method: "post",
-            url: "http://127.0.0.1:8000/qr_code/add_qr",
+            url: "https://qr-code-front-three.vercel.app/qr_code/add_qr",
             headers:{
                 "accept": "application/json",
                 'Content-Type': 'application/json;charset=UTF-8',

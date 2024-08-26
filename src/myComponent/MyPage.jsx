@@ -12,7 +12,7 @@ export function MyPage() {
     if( key != undefined){
         await axios({
             method: "get",
-            url: `http://127.0.0.1:8000/qr_code/get_date?unique_key=${key}`,
+            url: `https://qr-code-front-three.vercel.app/qr_code/get_date?unique_key=${key}`,
             headers: {
                 accept: "application/json",
             },
